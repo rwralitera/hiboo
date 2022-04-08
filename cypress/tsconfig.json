@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["cypress", "cypress-file-upload"]
+  },
+  "include": ["**/*.ts", "cypress/support/commands.ts"]
+}

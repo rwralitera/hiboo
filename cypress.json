@@ -1,0 +1,8 @@
+{
+  "BaseUrl": "https://example.cypress.io/",
+  "projectId": "XXXXX",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  }
+}
