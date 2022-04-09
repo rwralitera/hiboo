@@ -3,6 +3,7 @@
 ## Prérequisites
 
 nodejs v16.14.2
+chrome
 
 ## Run test
 
