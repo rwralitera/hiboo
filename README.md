@@ -6,10 +6,12 @@ nodejs v16.14.2
 
 ## Run test
 
+```
 git clone https://github.com/rwralitera/hiboo.git
 cd ./hiboo
 yarn install
 yarn cypress:run (OR yarn cypress:open to run files one by one)
+```
 
 ## Notes
 
