@@ -10,7 +10,8 @@
     "cypress:open:develop": "cypress open --config-file develop",
     "cypress:run": "cypress run",
     "cypress:run:dashboard": "cypress run --record --key CYPRESS_DASHBOARD_KEY",
-    "reinstall:local": "shx rm -rf package-lock.lock && shx rm -rf node_modules && npm cache clean --force && npm install"
+    "reinstall:local": "shx rm -rf package-lock.lock && shx rm -rf node_modules && yarn cache clean --force && yarn install",
+    "cypress:open:hiboo": "cypress open --config-file hiboo"
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,7 @@
     "newman-reporter-htmlextra": "^1.15.4"
   },
   "devDependencies": {
-    "cypress": "^9.3.1",
+    "cypress": "9.3.1",
     "cypress-multi-reporters": "^1.4.0",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.0",
