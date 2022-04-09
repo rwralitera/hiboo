@@ -1,7 +1,10 @@
+const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
+
 module.exports = {
   resolve: {
     extensions: ['.ts', '.js'],
   },
+  plugins: [new NodePolyfillPlugin()],
   module: {
     rules: [
       {

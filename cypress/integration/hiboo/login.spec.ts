@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+import locators from '../../utils/locators/locators';
+
 describe('Login test', () => {
   beforeEach(() => {
     cy.visit('/');
@@ -8,9 +10,9 @@ describe('Login test', () => {
 
   it('User should be redirected to the login page', () => {
     cy.url().should('eq', 'https://app.hiboo.io/login');
-    cy.get('[data-testid="username"]').should('be.visible');
-    cy.get('[data-testid="password"]').should('be.visible');
-    cy.get('[type="submit"]').should('be.disabled');
+    cy.get(locators.usernameField).should('be.visible');
+    cy.get(locators.passwordField).should('be.visible');
+    cy.get(locators.submitButton).should('be.disabled');
   });
 
   it('All links on the login page should have a status 200', () => {

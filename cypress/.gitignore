@@ -1,1 +1,7 @@
+######################
+# Cypress
+######################
+videos
+screenshots
+logfile.out
 reports/junit

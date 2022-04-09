@@ -6,7 +6,10 @@
     "lib": ["es5", "dom"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "types": ["cypress", "cypress-file-upload"]
+    "types": ["cypress", "cypress-file-upload", "@percy/cypress"]
+  },
+  "paths": {
+    "path": ["./node_modules/path-browserify"]
   },
   "include": ["**/*.ts", "cypress/support/commands.ts"]
 }

@@ -1,3 +1,19 @@
 {
-  "baseUrl": "https://www.hiboo.io/fr"
+  "baseUrl": "http://localhost:8000/",
+  "responseTimeout": 60000,
+  "defaultCommandTimeout": 30000,
+  "integrationFolder": "cypress/",
+  "testFiles": "**/**/*.spec.ts",
+  "reporter": "cypress-junit",
+  "reporterOptions": {
+    "mochaFile": "./cypress/reports/junit/[hash].xml",
+    "toConsole": true,
+    "outputs": true
+  },
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
 }
