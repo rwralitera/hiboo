@@ -1,8 +1,3 @@
 {
-  "BaseUrl": "https://example.cypress.io/",
-  "projectId": "XXXXX",
-  "reporter": "cypress-multi-reporters",
-  "reporterOptions": {
-    "configFile": "reporterOpts.json"
-  }
+  "baseUrl": "https://www.hiboo.io/fr"
 }

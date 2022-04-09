@@ -6,12 +6,8 @@
   "scripts": {
     "format:code:staged": "pretty-quick --staged",
     "cypress:open": "cypress open",
-    "cypress:open:localhost": "cypress open --config-file localhost",
-    "cypress:open:develop": "cypress open --config-file develop",
     "cypress:run": "cypress run",
-    "cypress:run:dashboard": "cypress run --record --key CYPRESS_DASHBOARD_KEY",
-    "reinstall:local": "shx rm -rf package-lock.lock && shx rm -rf node_modules && yarn cache clean --force && yarn install",
-    "cypress:open:hiboo": "cypress open --config-file hiboo"
+    "reinstall:local": "shx rm -rf package-lock.lock && shx rm -rf node_modules && yarn cache clean --force && yarn install"
   },
   "repository": {
     "type": "git",
